@@ -29,8 +29,10 @@
       </a>
       <nav class="nav-links">
         <a href="index.html">Ana Sayfa</a>
+        <a href="updates.html">Güncellemeler</a>
         <a href="whitelist.html">Whitelist</a>
-        <a href="login.html">Discord Giriş</a>
+        <a href="staff.html">Yetkili Başvuru</a>
+        <a href="legal.html">Legal Başvuru</a>
         <a href="admin.html">Admin Paneli</a>
       </nav>
       <div class="header-actions">
@@ -91,6 +93,69 @@
             <p>Toplu onay, toplu ret ve notlandırma işlemleri.</p>
             <button class="primary-button" type="button">Toplu İşlem</button>
           </div>
+          <div class="admin-card">
+            <h4>Departman Yetkileri</h4>
+            <p>Legal sorumlusu sadece legal başvuruları görür.</p>
+            <p>Yetkililer genel site yönetimi ve başvuruları yönetir.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Yetki Seviyeleri</h2>
+          <p>5 seviyeli yetki sistemi panelde rol bazlı görünür.</p>
+        </div>
+        <div class="role-grid">
+          <div class="role-card">
+            <h4>Staff</h4>
+            <p>İlk destek hattı, ticket yönetimi.</p>
+          </div>
+          <div class="role-card">
+            <h4>Mod</h4>
+            <p>Sunucu düzeni ve moderasyon.</p>
+          </div>
+          <div class="role-card">
+            <h4>Admin</h4>
+            <p>Başvurular, içerik ve panel yönetimi.</p>
+          </div>
+          <div class="role-card">
+            <h4>Director</h4>
+            <p>Departman sorumluları ve raporlama.</p>
+          </div>
+          <div class="role-card">
+            <h4>Kurucu</h4>
+            <p>Tüm yetkiler, nihai onay.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>İçerik Güncelleme Merkezi</h2>
+          <p>Duyuru, galeri, haber ve donate paketleri buradan yönetilir.</p>
+        </div>
+        <div class="admin-grid">
+          <div class="admin-card">
+            <h4>Duyuru Paneli</h4>
+            <p>Yeni duyuru ekle ve sabitle.</p>
+            <button class="primary-button" type="button">Duyuru Ekle</button>
+          </div>
+          <div class="admin-card">
+            <h4>Haberler</h4>
+            <p>Gelişmeleri haber akışında yayınla.</p>
+            <button class="ghost-button" type="button">Haber Oluştur</button>
+          </div>
+          <div class="admin-card">
+            <h4>Galeri Yönetimi</h4>
+            <p>Öne çıkan görselleri yükle ve sırala.</p>
+            <button class="ghost-button" type="button">Galeri Güncelle</button>
+          </div>
+          <div class="admin-card">
+            <h4>Donate Paketleri</h4>
+            <p>Paket fiyatlarını ve içerikleri düzenle.</p>
+            <button class="primary-button" type="button">Paket Düzenle</button>
+          </div>
         </div>
       </section>
 
@@ -134,6 +199,15 @@
                 <td>Illegal</td>
                 <td><span class="status-pill">Yeni</span></td>
                 <td>@emirt</td>
+                <td>
+                  <button class="ghost-button" type="button">Detay</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Aslı Kara</td>
+                <td>Legal</td>
+                <td><span class="status-pill approved">Onaylandı</span></td>
+                <td>@aslik</td>
                 <td>
                   <button class="ghost-button" type="button">Detay</button>
                 </td>

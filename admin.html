@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LynxV Roleplay | Admin Paneli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <span>🧠 Admin Paneli Aktif</span>
+      <span>Başvurular burada kontrol edilir</span>
+      <span>🔔 Bildirimler Discord üzerinden</span>
+    </div>
+
+    <header class="site-header">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">L</span>
+        <div>
+          <p class="logo-title">LynxV</p>
+          <p class="logo-subtitle">Roleplay Sunucusu</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="whitelist.html">Whitelist</a>
+        <a href="login.html">Discord Giriş</a>
+        <a href="admin.html">Admin Paneli</a>
+      </nav>
+      <div class="header-actions">
+        <a class="ghost-button" href="login.html">Admin Girişi</a>
+        <a class="primary-button" href="https://discord.gg/EBZtk4avD4" target="_blank" rel="noreferrer">
+          Discord
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow">Yönetim Paneli</p>
+          <h1>Başvuruları değerlendir, ekipleri yönet.</h1>
+          <p class="hero-description">
+            Bu panel, whitelist başvurularını filtrelemek, admin notları eklemek
+            ve Discord doğrulamalarını kontrol etmek için tasarlandı.
+          </p>
+          <div class="hero-buttons">
+            <a class="primary-button" href="whitelist.html">Başvuruları Gör</a>
+            <a class="ghost-button" href="login.html">Discord Doğrula</a>
+          </div>
+        </div>
+        <div class="status-card">
+          <h3>Bugünün Özeti</h3>
+          <ul>
+            <li>Yeni başvuru: <strong>12</strong></li>
+            <li>Onay bekleyen: <strong>8</strong></li>
+            <li>Reddedilen: <strong>3</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Başvuru Yönetimi</h2>
+          <p>Adminler başvuruları buradan kontrol eder.</p>
+        </div>
+        <div class="admin-grid">
+          <div class="admin-card">
+            <h4>Filtreler</h4>
+            <div class="pill-group">
+              <span>Yeni</span>
+              <span>İnceleme</span>
+              <span>Onaylandı</span>
+              <span>Reddedildi</span>
+            </div>
+            <p>Öncelik puanı, rol tercihi ve saat dilimine göre filtrele.</p>
+          </div>
+          <div class="admin-card">
+            <h4>Discord Doğrulama</h4>
+            <p>Discord ID doğrulanan başvurulara otomatik onay etiketi eklenir.</p>
+            <button class="ghost-button" type="button">Doğrulamaları Yenile</button>
+          </div>
+          <div class="admin-card">
+            <h4>Hızlı Aksiyonlar</h4>
+            <p>Toplu onay, toplu ret ve notlandırma işlemleri.</p>
+            <button class="primary-button" type="button">Toplu İşlem</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Başvuru Listesi</h2>
+          <p>Örnek liste: gerçek veriler API üzerinden beslenecek.</p>
+        </div>
+        <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+                <th>Başvuru Sahibi</th>
+                <th>Rol</th>
+                <th>Durum</th>
+                <th>Discord</th>
+                <th>İşlem</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Raven Blake</td>
+                <td>Legal</td>
+                <td><span class="status-pill">İnceleme</span></td>
+                <td>@ravenblake</td>
+                <td>
+                  <button class="ghost-button" type="button">Detay</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Deniz Kaya</td>
+                <td>EMS</td>
+                <td><span class="status-pill approved">Onaylandı</span></td>
+                <td>@denizk</td>
+                <td>
+                  <button class="ghost-button" type="button">Detay</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Emir T.</td>
+                <td>Illegal</td>
+                <td><span class="status-pill">Yeni</span></td>
+                <td>@emirt</td>
+                <td>
+                  <button class="ghost-button" type="button">Detay</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3>LynxV Roleplay</h3>
+        <p>Admin aksiyonları Discord bildirimleriyle senkronlanır.</p>
+      </div>
+      <div class="footer-actions">
+        <a class="primary-button" href="whitelist.html">Whitelist</a>
+        <a class="ghost-button" href="login.html">Discord Giriş</a>
+      </div>
+    </footer>
+  </body>
+</html>

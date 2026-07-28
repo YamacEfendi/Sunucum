@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LynxV Roleplay | Sunucu Ana Sayfa</title>
+    <title>LynxV Roleplay | Ana Sayfa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,27 +20,29 @@
     </div>
 
     <header class="site-header">
-      <div class="logo">
+      <a class="logo" href="index.html">
         <span class="logo-mark">L</span>
         <div>
           <p class="logo-title">LynxV</p>
           <p class="logo-subtitle">Roleplay Sunucusu</p>
         </div>
-      </div>
+      </a>
       <nav class="nav-links">
-        <a href="#whitelist">Whitelist</a>
-        <a href="#hakkinda">Hakkında</a>
-        <a href="#ozellikler">Özellikler</a>
-        <a href="#topluluk">Topluluk</a>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="whitelist.html">Whitelist</a>
+        <a href="login.html">Discord Giriş</a>
+        <a href="admin.html">Admin Paneli</a>
       </nav>
       <div class="header-actions">
-        <button class="ghost-button">Forum</button>
-        <button class="primary-button">Discord</button>
+        <a class="ghost-button" href="whitelist.html">Başvuru Formu</a>
+        <a class="primary-button" href="https://discord.gg/EBZtk4avD4" target="_blank" rel="noreferrer">
+          Discord
+        </a>
       </div>
     </header>
 
     <main>
-      <section class="hero" id="hakkinda">
+      <section class="hero">
         <div class="hero-content">
           <p class="eyebrow">LynxV Roleplay • Yeni Nesil FiveM</p>
           <h1>
@@ -52,8 +54,8 @@
             geleceğini değiştirir.
           </p>
           <div class="hero-buttons">
-            <button class="primary-button">Sunucuya Katıl</button>
-            <button class="ghost-button">Whitelist Başvurusu</button>
+            <a class="primary-button" href="login.html">Discord ile Giriş</a>
+            <a class="ghost-button" href="whitelist.html">Whitelist Başvurusu</a>
           </div>
           <div class="hero-tags">
             <span>+18 topluluk</span>
@@ -125,37 +127,37 @@
         </div>
       </section>
 
-      <section class="section" id="whitelist">
+      <section class="section">
         <div class="section-header">
-          <h2>Başvurular</h2>
-          <p>Topluluğumuza katılmak için gerekli adımlar.</p>
+          <h2>Hızlı Erişim</h2>
+          <p>Sunucunun ana sayfalarına tek tıkla ulaş.</p>
         </div>
         <div class="card-grid">
           <article class="glass-card">
-            <div class="card-icon">🛡️</div>
-            <h3>Whitelist</h3>
-            <p>Sunucuya giriş için ön koşul.</p>
-            <button class="ghost-button">Başvur</button>
+            <div class="card-icon">✅</div>
+            <h3>Whitelist Başvurusu</h3>
+            <p>Başvuru formunu doldur ve sonucu takip et.</p>
+            <a class="ghost-button" href="whitelist.html">Başvur</a>
             <span class="badge">Açık</span>
           </article>
           <article class="glass-card">
-            <div class="card-icon">🎙️</div>
-            <h3>Yetkili Başvuru</h3>
-            <p>Yönetim ekibimize katıl.</p>
-            <button class="ghost-button">Başvur</button>
+            <div class="card-icon">🔐</div>
+            <h3>Discord Giriş</h3>
+            <p>Discord hesabınla güvenli giriş yap.</p>
+            <a class="ghost-button" href="login.html">Giriş Yap</a>
             <span class="badge badge-alt">Aktif</span>
           </article>
           <article class="glass-card">
-            <div class="card-icon">⚖️</div>
-            <h3>Legal Departman</h3>
-            <p>EMS, PD ve adliye rolleri.</p>
-            <button class="ghost-button">Başvur</button>
+            <div class="card-icon">🧭</div>
+            <h3>Admin Paneli</h3>
+            <p>Başvuru yönetimi ve moderasyon araçları.</p>
+            <a class="ghost-button" href="admin.html">Panele Git</a>
             <span class="badge">Açık</span>
           </article>
         </div>
       </section>
 
-      <section class="section" id="ozellikler">
+      <section class="section">
         <div class="section-header">
           <h2>Öne Çıkan Özellikler</h2>
           <p>Şehrin nabzını tutan özel sistemler.</p>
@@ -180,7 +182,7 @@
         </div>
       </section>
 
-      <section class="section" id="hikaye">
+      <section class="section">
         <div class="section-header">
           <h2>Şehirde Bugün</h2>
           <p>Aktif rolleri ve öne çıkan senaryoları keşfet.</p>
@@ -210,7 +212,7 @@
         </div>
       </section>
 
-      <section class="section" id="galeri">
+      <section class="section">
         <div class="section-header">
           <h2>Şehirden Kareler</h2>
           <p>Yeni nesil görsellerle hikâyeni paylaş.</p>
@@ -235,14 +237,16 @@
       </section>
     </main>
 
-    <footer class="footer" id="topluluk">
+    <footer class="footer">
       <div>
         <h3>LynxV Roleplay</h3>
         <p>Şehrin ritmine ayak uydur, hikâyeni birlikte yazalım.</p>
       </div>
       <div class="footer-actions">
-        <button class="primary-button">Discord’a Katıl</button>
-        <button class="ghost-button">Sunucu Rehberi</button>
+        <a class="primary-button" href="https://discord.gg/EBZtk4avD4" target="_blank" rel="noreferrer">
+          Discord’a Katıl
+        </a>
+        <a class="ghost-button" href="whitelist.html">Sunucu Rehberi</a>
       </div>
     </footer>
   </body>
